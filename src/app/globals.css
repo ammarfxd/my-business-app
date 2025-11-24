@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@theme {
+  --color-greendish: #0db75f;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+}
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.2264 0 0);
@@ -34,7 +39,7 @@
   --sidebar-accent-foreground: oklch(0.2264 0 0);
   --sidebar-border: oklch(0.7195 0.1633 153.3567);
   --sidebar-ring: oklch(0.7195 0.1633 153.3567);
-  --font-sans: var(--font-Montserrat), "Montserrat", sans-serif;
+  --font-sans: var(--font-Inter), "Inter", system-ui, -apple-system, sans-serif;
   --font-serif: serif;
   --font-mono: monospace;
   --radius: 0.5rem;
@@ -94,7 +99,7 @@
   --sidebar-accent-foreground: oklch(0.9551 0 0);
   --sidebar-border: oklch(0.7195 0.1633 153.3567);
   --sidebar-ring: oklch(0.7195 0.1633 153.3567);
-  --font-sans: var(--font-Montserrat), "Montserrat", sans-serif;
+  --font-sans: var(--font-Inter), "Inter", system-ui, -apple-system, sans-serif;
   --font-serif: serif;
   --font-mono: monospace;
   --radius: 0.5rem;
